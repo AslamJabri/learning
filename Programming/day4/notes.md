@@ -40,3 +40,16 @@ print(my_list)  # Output: [1, 10, 3, 4, 5, 6]
 my_list.remove(3)
 print(my_list)  # Output: [1, 10, 4, 5, 6]
 
+## IndexError 
+An IndexError is a type of error that occurs in Python when you try to access an index of a sequence (such as a list, tuple, or string) that is out of range. This means that you're trying to access an element at an index that doesn't exist within the sequence.
+
+## Nested List
+In Python, a nested list is a list that contains other lists as elements. This allows you to organize data in a hierarchical structure, making it useful for representing complex relationships between items.
+Python
+
+my_list = [
+    [1, 2, 3],
+    ["apple", "banana", "cherry"],
+    [True, False, False]
+]
+
