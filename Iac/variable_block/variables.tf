@@ -1,15 +1,20 @@
 variable "vpc_cidr" {
   description = "CIDR for the VPC"
-  type = string
-  default = "10.10.0.0/20"
+  type        = string
+  default     = "10.10.0.0/20"
 }
 variable "sub_cidr" {
-    description = "CIDR block for subnet"
-    type = string
-    default = "10.10.0.0/24"
+  description = "CIDR block for subnet"
+  type        = string
+  default     = "10.10.0.0/24"
 }
 variable "availability_zone" {
-    description = "In which AZ"
-    type = string
-    default = "ap-south-1a"
+  description = "In which AZ"
+  type        = string
+  default     = "ap-south-1a"
+}
+variable "environment" {
+  description = "Dev environment"
+  type        = string
+  default     = "dev"
 }
