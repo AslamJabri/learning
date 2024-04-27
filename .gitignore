@@ -4,10 +4,10 @@ Cloud/Azure/.DS_Store
 Cloud/GCP/.DS_Store
 Programming/day4/__pycache__
 Iac/*/.terraform*
-Iac/providers/terra.pem
-Iac/blocks_together/NewKey.pem
-Iac/blocks_together/NewKey.pub
-Iac/blocks_together/terraform.tfstate.backup
-Iac/blocks_together/.terraform
-Iac/blocks_together/terraform.tfstate
-Iac/blocks_together/.terraform.lock.hcl
+/Iac/providers/terra.pem
+/Iac/blocks_together/NewKey.pem
+/Iac/blocks_together/NewKey.pub
+/Iac/blocks_together/terraform.tfstate.backup
+/Iac/blocks_together/.terraform
+/Iac/blocks_together/terraform.tfstate
+/Iac/blocks_together/.terraform.lock.hcl
