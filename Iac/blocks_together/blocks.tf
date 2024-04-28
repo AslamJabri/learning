@@ -20,7 +20,7 @@ terraform {
 provider "aws" {
   region = "ap-south-1"
 }
-# Since i Have to use the vpc in multiple places i will make use of variable block
+# Since I Have to use the vpc in multiple places i will make use of variable block
 
 variable "aws_vpc" {
   type = string
