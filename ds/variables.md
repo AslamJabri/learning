@@ -72,6 +72,21 @@ devops:
      - Gitops
      - AgroCD
      - Tekton
-  Year
-    2024
+  Year: 2024
 
+  To write configuration mostly Yaml is used and to read data mostly JSON is used.
+
+
+
+
+
+# Networking Commands
+ifconfig, ip addr - to see the ip address
+traceroute -  give you the latency
+netstat -antp - shows all the open ports
+ss -tlpna - also show all the ports 
+ps -ef - shows the processes
+nmap is  used for scanning the networks.
+dig - it shows dnslookup
+nslookup same as dig
+arp -a - shows all the neighbors in network
