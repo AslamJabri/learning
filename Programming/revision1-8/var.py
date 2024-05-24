@@ -146,3 +146,77 @@ print(ans)
 ans = "Bash" not in devops_skills
 print(ans)
 
+print("*** Decision Making ***")
+food = "pizza"
+
+if food == "pizza":
+    print("I love pizza")
+elif food == "Burger":
+    print("I love Burger")
+else:
+    print("I love food")
+    
+print("********")
+
+skills = ["Jenkins","Ansible","Docker"]
+lang = ("c++","Python")
+print("What skill do you have? ")
+print("Which development language you know? ")
+salry = {
+    "Devops":10000,
+    "Development":12000
+}
+contract1 = {
+    "Name":"rocky",
+    "skill":"AI"
+}
+contract2 = {
+    "Name":"Smith",
+    "skill":"Blockchain"
+}
+usr_skill = input("Enter Your skills? ")
+if usr_skill in skills:
+    print("We have that Requriement in Devops")
+    print("Your salary will be",salry["Devops"])
+elif usr_skill in lang:
+    print("We have that Requriement in Development")
+    print("Your salary will be",salry["Development"])
+elif usr_skill in contract1.values() or usr_skill in contract2.values():
+    print("We have that Requriement in Contract")
+else:
+    print("Sorry we dont have that Requriement")
+    
+print("********LOOPS***************")
+
+planet = "Earth"
+for i in planet:
+    print(i)
+vaccines = ["Moderna","Pfizer","Covaxin","Astrazeneca"]
+for vac in vaccines:
+    print(f"These are the vaccines we have {vac}")
+    for i in vac:
+        print(i)
+    
+print("*******While loop********")
+
+x = 3
+while x < 10:
+    print(x)
+    x+=1
+    
+print("Break statement provides you with the opportuinity to exit out of the loop")
+for i in "python":
+    print(i)
+    if i =="h":
+        break
+print("Loop exited")
+
+print("Continue is something which skips the value")
+for i in "python":
+    print(i)
+    if i =="h":
+        print("Data found")
+        continue
+    print(f"Value of i is {i}")
+    
+print("Loop exited")
