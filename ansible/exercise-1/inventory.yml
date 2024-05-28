@@ -1,0 +1,7 @@
+all:
+  hosts:
+    web01:
+      ansible_host: 13.201.15.197
+      ansible_user: ubuntu
+      ansible_private_key_file: /Users/aslamjabri/Downloads/vprofile-prod-key.pem
+
