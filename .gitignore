@@ -1,3 +1,4 @@
+venv
 .DS_Store
 Cloud/.DS_Store
 Cloud/Azure/.DS_Store
@@ -11,3 +12,6 @@ Iac/*/.terraform*
 /Iac/blocks_together/.terraform
 /Iac/blocks_together/terraform.tfstate
 /Iac/blocks_together/.terraform.lock.hcl
+/Iac/instance/terraform.tfstate
+/Iac/instance/terraform.tfstate/backup
+
