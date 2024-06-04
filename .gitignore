@@ -15,3 +15,4 @@ Iac/*/.terraform*
 /Iac/instance/terraform.tfstate
 /Iac/instance/terraform.tfstate/backup
 
+../ansible/ansible.cfg

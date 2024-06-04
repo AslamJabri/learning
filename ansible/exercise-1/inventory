@@ -1,0 +1,22 @@
+all:
+  hosts:
+    web01:
+      ansible_host: 13.127.248.91
+      ansible_user: ubuntu
+      ansible_private_key_file: /Users/aslamjabri/Downloads/vprofile-prod-key.pem
+    db01:
+      ansible_host: 13.201.21.66
+      ansible_user: ec2-user
+      ansible_private_key_file: /Users/aslamjabri/Downloads/vprofile-prod-key.pem
+
+children:
+  webservers:
+    hosts:
+      web01:
+  dbserver:
+    hosts:
+      db01:
+  dc_ap_south:
+    children:
+      webservers:
+      dbserver:
